@@ -17,46 +17,60 @@
     <link rel="stylesheet" href='static/css/style.css' />
 </head>
 <body>
-      <header>
-
-        <header >
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" >
-    <div class="container-fluid" >
+ 
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#" style="font-size: 18px;">Blake Brandon Project Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#" style="font-size: 24px;">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" style="font-size: 24px;">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#" style="font-size: 24px;">Contact</a>
-          </li>
 
-        </ul>
       </div>
     </div>
   </nav>
 </header>
 
-    <!-- Intro settings -->
-    <style>
-      #intro {
-        /* Margin to fix overlapping fixed navbar */
-        margin-top: 58px;
-      }
-      @media (max-width: 991px) {
-        #intro {
-          /* Margin to fix overlapping fixed navbar */
-          margin-top: 45px;
-        }
-      }
-    </style>
+<p>
+            <a aria-current="page" href="#" style="font-size: 20px; padding-left: 15px; color: black;">Resume</a>
+            <a href="#" style="font-size: 20px; padding-left: 15px; color: black;">LinkedIn</a>
+            
+            <a href="#" style="font-size: 20px;padding-left: 15px; color: black;">Email</a></p>
+
+
+<style>
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+ 
+}
+
+</style>
+
+
+
 
     <!-- Jumbotron
     <div id="intro" class="p-5 text-center bg-light">
@@ -69,7 +83,7 @@
       </p>
     </div>
     <!-- Jumbotron-->
-  </header>
+
   <!--Main Navigation-->
 
   <!--Main layout-->
